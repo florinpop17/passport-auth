@@ -1,0 +1,27 @@
+{
+  "name": "passport-auth",
+  "version": "1.0.0",
+  "description": "Passport authentication with github",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florinpop17/passport-auth.git"
+  },
+  "author": "Florin Pop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/florinpop17/passport-auth/issues"
+  },
+  "homepage": "https://github.com/florinpop17/passport-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0"
+  }
+}
